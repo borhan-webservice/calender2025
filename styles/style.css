@@ -165,6 +165,7 @@ color:red;
 	.holidays{font-size: 8px;}
 }
 @media(max-width: 517px){
+	.container{grid-gap:3px;}
 	.header{
 		display: grid;
 		grid-template: 'first-part'
