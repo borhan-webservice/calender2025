@@ -38,7 +38,7 @@
 		overflow:hidden;
 		text-align:center;
 		}
-		.month-tab .month-label{font-size:1.5vw;}
+		.month-tab .month-label{font-size:1.5vw;font-weight:bold;}
 		.month-tab td{font-size:1.2vw;}
 		.container{
 		font-family:cursive, monospace;
