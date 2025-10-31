@@ -270,8 +270,8 @@ color:red;
 	.second-part{font-size: 15px}
 }
 @media(min-width:1400px){
-	.holidays{font-size: 10px;}
-	body{width:80vw;}
+	.holidays{font-size: 13px;}
+	body{width:65vw;}
 
 }
 /*End of Media Query*/
