@@ -170,6 +170,7 @@ color:red;
 	.cal-head{font-size: 17px}
 	.cal-shead{font-size: 7px}
 	.second-part{font-size: 7px}
+	body{width:100vw;}
 }
 @media(min-width:300px){
 	.holidays{font-size: 5px;}
@@ -177,12 +178,14 @@ color:red;
 	.cal-head{font-size: 18px}
 	.cal-shead{font-size: 8px}
 	.second-part{font-size: 8px}
+	body{width:100vw;}
 }
 @media(min-width:400px){
 	.holidays{font-size: 8px;}
 	.cal-head{font-size: 19px}
 	.cal-shead{font-size: 9px}
 	.second-part{font-size: 8px}
+	body{width:100vw;}
 }
 @media(max-width: 517px){
 	.container{grid-gap:3px;}
