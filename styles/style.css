@@ -255,7 +255,7 @@ color:red;
 	.second-part{font-size: 12px}
 }
 @media(min-width:1300px){
-	.holidays{font-size: 13px;}
+	.holidays{font-size: 12px;}
 	.about-dev{font-size: 14px;}
 	body{width:65vw;}
 	.cal-head{font-size: 28px}
