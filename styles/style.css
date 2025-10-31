@@ -167,23 +167,23 @@ color:red;
 @media(min-width:200px){
 	.holidays{font-size: 6px;}
 	.cal-head{font-size: 17px}
-	.cal-shead{font-size: 7px}
-	.second-part{font-size: 7px}
+	.cal-shead{font-size: 12px}
+	.second-part{font-size: 11px}
 	body{width:100vw;}
 }
 @media(min-width:300px){
 	.holidays{font-size: 5px;}
 	.about-dev{	font-size: 8px;}
 	.cal-head{font-size: 18px}
-	.cal-shead{font-size: 8px}
-	.second-part{font-size: 8px}
+	.cal-shead{font-size: 12px}
+	.second-part{font-size: 11px}
 	body{width:100vw;}
 }
 @media(min-width:400px){
 	.holidays{font-size: 8px;}
 	.cal-head{font-size: 19px}
-	.cal-shead{font-size: 9px}
-	.second-part{font-size: 8px}
+	.cal-shead{font-size: 13px}
+	.second-part{font-size: 12px}
 	body{width:100vw;}
 }
 @media(max-width: 517px){
@@ -207,30 +207,30 @@ color:red;
 	.about-dev{font-size: 8px;}
 	body{width:100vw;}
 	.cal-head{font-size: 20px}
-	.cal-shead{font-size: 10px}
-	.second-part{font-size: 9px}
+	.cal-shead{font-size: 13px}
+	.second-part{font-size: 12px}
 }
 @media(min-width:600px){
 	.holidays{font-size: 6px;}
 	body{width:96vw;}
 	.cal-head{font-size: 21px}
-	.cal-shead{font-size: 11px}
-	.second-part{font-size: 9px}
+	.cal-shead{font-size: 13px}
+	.second-part{font-size: 12px}
 }
 @media(min-width:700px){
 	.holidays{font-size: 7px;}
 	.about-dev{font-size: 10px;}
 	body{width:93vw;}
 	.cal-head{font-size: 22px}
-	.cal-shead{font-size: 12px}
-	.second-part{font-size: 9px}	
+	.cal-shead{font-size: 14px}
+	.second-part{font-size: 12px}	
 }	
 @media(min-width:800px){
 	.holidays{font-size: 8px;}
 	body{width:90vw;}
 	.cal-head{font-size: 23px}
-	.cal-shead{font-size: 13px}
-	.second-part{font-size: 10px}	
+	.cal-shead{font-size: 14px}
+	.second-part{font-size: 12px}	
 }
 @media(min-width:900px){
 	.holidays{font-size: 9px;}
@@ -238,7 +238,7 @@ color:red;
 	body{width:85vw;}
 	.cal-head{font-size: 24px}
 	.cal-shead{font-size: 14px}
-	.second-part{font-size: 11px}
+	.second-part{font-size: 12px}
 }
 
 @media(min-width:1100px){
@@ -247,7 +247,7 @@ color:red;
 	body{width:75vw;}
 	.cal-head{font-size: 25px}
 	.cal-shead{font-size: 15px}
-	.second-part{font-size: 11px}
+	.second-part{font-size: 12px}
 }
 @media(min-width:1200px){
 	.holidays{font-size: 12px;}
