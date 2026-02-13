@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
 <title>Holiday Calendar 2026</title>
 
 <style>
-  body {
+  .main {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -63,10 +63,73 @@
     font-weight: bold;
     min-height: 20px;
   }
+
+/*header style*/
+.first-part{
+  padding-top:10px;
+  padding-left: 10px;
+  text-align: center;
+}
+.cal-head{
+      padding-top: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-shadow: 2px 2px 2px #000;
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .cal-shead{
+      margin-top: 0px;
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+      text-shadow: 2px 2px 2px #000;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+/*footer style*/
+.about-dev{
+  background-color:#000;
+  color: #ddf;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius:0px 0px 5px 5px;
+  display:grid;
+  text-align: center;
+  grid-gap:10px;
+  grid-template:
+  'part1 part2 part3';
+}
+.linkto{grid-area: part1;}
+.vertical-line{grid-area: part2; height: 100px; border-left:3px solid white; }
+.copy{grid-area: part3;}
+.disclaimer{
+  margin-left: 15px;
+  margin-top: 3px;
+  text-align: justify;
+}
+.images{
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+}
+.dev-links{
+  margin-top: 10px;
+}
 </style>
 </head>
 
 <body>
+  <div class="headline">
+    <div class="first-part">
+  <p class="cal-head">ASSAM GOVERNMENT HOLIDAYS CALENDER<br>2025</p>
+  <p class="cal-shead">Based on holidays notified by the Govt. of Assam</p>
+  </div>
+
+  </div>
+  <!--End of Header-->
+  <div class="main">
 <div class="calendar-container">
   <div class="header">
     <button id="prevBtn">◀</button>
@@ -86,7 +149,25 @@
 
   <div id="holiday-output"></div>
 </div>
+</div>
+ <!--End of Main Calender-->
 
+  <div class="about-dev">
+    <div class="linko">
+      <span style="text-decoration: underline;">Disclaimer:</span><p class="disclaimer"> This site is not an official site of any Government Department or Institution. Visitors are requested to comply with official holiday calender.
+      </p> 
+    </div>
+    <div class="vertical-line"> </div>
+    <div class="copy">Connect with Developer&gt;&gt;<br>
+      <div class="dev-links">
+      <a href="https://www.linkedin.com/in/borhanur-rohman" target="_blank"><img class="images" src="img/linkedin.png"></a>
+      <a href="https://www.facebook.com/codename010101/" target="_blank"><img class="images" src="img/facebook.png"></a>
+      <a href="https://wa.me/918811995596" target="_blank"><img class="images" src="img/whatsapp.png"></a>
+      <p style="margin-bottom: 0px">©Borhanur Rohman</p>
+      </div>
+    </div>
+  </div>
+  <!--End of footer-->
 <script>
   // Holidays for 2026
   const holidays = {
